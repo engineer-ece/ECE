@@ -1,0 +1,21 @@
+a{
+text-align:center;
+text-decoration:none;
+font-size:3vw;
+color:black;
+ border: 1vw solid rgb(0,255,0);
+ margin: .5cm;
+box-shadow:0vw 0vw 1vw blue;
+display:flex;
+}
+a:active{
+background-color:(0,255,0);
+box-shadow:0vw 0vw 2vw black;
+color:orange;
+}
+
+a:hover{
+border: 2vw ridge orange;
+box-shadow:0vw 0vw 2vw green;
+color:green;
+}
